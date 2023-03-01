@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 import { DESCRIPTION, ID, STATUS, TITLE } from '../../config';
 
-import styles from './InfoBar.module.scss';
+import styles from './Headings.module.scss';
 
-export const InfoBar: FC = () => {
+export const Headings: FC = () => {
   return (
     <div className={styles.root}>
       <div className={styles.heading}>{ID}</div>

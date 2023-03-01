@@ -1,8 +1,8 @@
 import { FC, useState } from 'react';
 
-import { InfoBar } from './components/InfoBar';
+import { Headings } from './components/Headings';
 import { InputForm } from './components/InputForm';
-import { TodoList } from './components/TodoListItem';
+import { TodoListItem } from './components/TodoListItem';
 import { Modal } from './components/Modal';
 
 import { TodoItem } from './types';
@@ -50,10 +50,10 @@ export const App: FC = () => {
     <>
       <div className={styles.root}>
         <InputForm addTodo={addTodo} />
-        <InfoBar />
+        <Headings />
         <div className={styles.todos}>
           {todos.map((todo) => (
-            <TodoList
+            <TodoListItem
               key={todo.id}
               todoItem={todo}
               handleToggle={handleToggle}

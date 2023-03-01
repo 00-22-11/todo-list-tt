@@ -11,7 +11,7 @@ interface Props {
   handleClick: (todoItem: TodoItem) => void;
 }
 
-export const TodoList: FC<Props> = ({
+export const TodoListItem: FC<Props> = ({
   todoItem,
   handleToggle,
   handleClick,
