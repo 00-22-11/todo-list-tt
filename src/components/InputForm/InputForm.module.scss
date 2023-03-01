@@ -1,0 +1,25 @@
+.root {
+  display: flex;
+  justify-content: space-around;
+
+  margin-bottom: 25px;
+}
+
+.title,
+.description {
+  display: flex;
+  flex-direction: column;
+}
+
+.emptyError {
+  border: 2px solid red;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.button {
+  height: 25px;
+  align-self: center;
+}

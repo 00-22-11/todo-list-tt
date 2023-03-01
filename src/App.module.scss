@@ -1,0 +1,19 @@
+.root {
+  display: flex;
+  flex-direction: column;
+
+  width: 700px;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+
+  row-gap: 15px;
+}
+
+.title,
+.description {
+  display: flex;
+  flex-direction: column;
+}
